@@ -17,3 +17,24 @@ For this hw you’ll be planning and implementing a semantic structuring strateg
              b.	As you are structuring pages, add ARIA roles to elements when appropriate. 
 					
 
+
+(1b) OUTLINE: 
+COMP 484
+    Structuring Pages
+    Untitled NAV
+    Conveying meaning through structure
+        Sectioning elements
+        Document outlines
+            W3C Warning
+        WAI-ARIA Roles
+
+(1b/1c) Use of Structural Tags:
+- nav contains links used to navigate throughout the site
+- main contains bulk of informative content 
+- article tag surrounds all content in main to group them together (they are conceptually similar…if you remove the article and everything it contains, the overall meaning of what remains stays the same)
+- we typically have the header to provide introductory information and context, and then various sections (where each section is like a (sub-)category)
+- Each section has h3 to describe what is it about (like a title)
+- aside is used to group together content that is indirectly related to content mentioned in the same section (similar to footnote information)
+- The header is used to contain introduction information, like the information at the top of the page (title and navigation links / table of contents) and the paragraph describing what the ensuing categories would be about. 
+- footer contains content/ending information like address. 
+- main contains the body of the information (i.e. primary important content)
